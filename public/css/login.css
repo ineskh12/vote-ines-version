@@ -1,0 +1,78 @@
+.help-block{
+    color: red;
+}
+html{
+    min-height: 100%; 
+    background-size: cover; 
+    background: linear-gradient(to left top, #dadada 0%,#dadada 50%,#000000 50%,#cdcdcd 50%,#cdcdcd 100%);
+}
+body{
+    height: 100%;
+    background: transparent;
+}
+
+#wrapper .container-fluid{
+    padding: 0px;
+}
+#wrapper .container-fluid .row{
+    margin: 0px; padding:10px;
+}
+#wrapper .container-fluid .row img{
+    max-width: 270px;
+}
+
+footer{
+    position: absolute; 
+    bottom: 0px;
+    color: black;
+}
+
+footer .logo{
+    max-width: 70px; 
+    display: block; 
+    float: right;
+}
+
+footer .text-left .row{
+    position: absolute; 
+    bottom: 0px
+}
+footer .odc{
+    font-weight: bold;
+}
+
+.login-register{
+    position: relative;
+    margin-bottom: 55px;  
+    padding: 5% 0;
+}
+
+.login-box .img-left{
+    float: left;
+    position: absolute; 
+    left: -120px;
+    top: 50px;
+}
+
+
+.login-box .img-right{
+    float: right;
+    position: absolute; 
+    right: -150px;
+    top: 200px;
+}
+
+
+.login-box .img-left2{
+    float: left;
+    position: absolute; 
+    left: -120px;
+    top: 150px;
+}
+
+.login-box .img-right2{
+    float: right;
+    position: absolute; 
+    right: -150px;
+    top: 50px;
+}

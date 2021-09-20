@@ -1,0 +1,138 @@
+.form-group.has-error input, .form-group.has-error select, .form-group.has-error textarea {
+    border: 1px solid #ef5350;
+}
+
+.form-group.has-error .help-block-error {
+    padding: 0px;
+    color: #ef5350;
+}
+
+
+.form-group.has-error label{
+    color: #ef5350;
+}
+
+
+.form-group.has-error [type=radio]:not(:checked)+label:after, .form-group.has-error [type=radio]:not(:checked)+label:before, .form-group.has-error .select2-container--default .select2-selection--single{
+    border: 1px solid #ef5350;
+}
+
+.select2-container--default .select2-selection--single
+
+.form-actions{
+	margin-top: 20px; 
+	padding: 30px 0px 15px 0px;
+    border-top: 1px solid #eee;
+}
+
+.form-actions button[type="submit"] {
+	margin-left: 70px;
+}
+
+.card-body form {
+	padding-top: 30px;
+}
+
+.card-body .ribbon{
+	color: white;
+}
+
+.card-body .ribbon:hover{
+    -webkit-box-shadow: 0 14px 26px -12px rgba(40, 190, 189, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(40, 190, 189, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(40, 190, 189, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(40, 190, 189, 0.2);
+    border: 1px solid #26dad2;
+}
+
+.footer a{
+	color: #ff6600;
+	cursor: pointer;
+}
+
+
+.highcharts-container, .highcharts-root {
+    width: 100% !important;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .img-res {
+        width:130px; 
+        height:130px; 
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .img-res {
+      width:130px; 
+      height:130px; 
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .img-res {
+        width:130px; 
+        height:130px; 
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .img-res {
+        width:70px; 
+        height:70px; 
+    }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .img-res {
+        width:70px; 
+        height:70px; 
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .img-res {
+        width:70px; 
+        height:70px; 
+    }
+  
+}

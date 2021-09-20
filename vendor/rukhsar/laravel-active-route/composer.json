@@ -1,0 +1,17 @@
+{
+    "name": "rukhsar/laravel-active-route",
+    "description": "A laravel helper package.",
+    "license": "MIT",
+    "authors": [{"name": "Rukhsar Manzoor", "email": "rukhsar.man@gmail.com"}],
+    "require": {
+        "php": ">=5.4.0"
+    },
+      "autoload": {
+      "psr-4": {
+          "Rukhsar\\ActiveRoute\\": "src"
+        },
+      "files": [
+        "src/helpers.php"
+      ]
+    }
+  }
